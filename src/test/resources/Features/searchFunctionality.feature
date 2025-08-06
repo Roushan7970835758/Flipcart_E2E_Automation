@@ -57,4 +57,11 @@ When Click the search icon
 Then It should display the search result and get the title and price
 
 
+@tc006 @Regression
+Scenario:To test the search functionality with excel sheet
+Given Enter Search Text In the Search Field
+When Click search Icon
+Then It Should Display The Relevent Result
+
+
 

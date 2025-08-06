@@ -18,7 +18,7 @@ public class hooks extends Libary {
 	public static Scenario scenario;
 	public SeleniumReusable se;
 	
-	@Before
+//	@Before
 	public void beforeScenario(Scenario Cucumberscenario) throws FileNotFoundException, IOException {
 		
 		scenario = Cucumberscenario;

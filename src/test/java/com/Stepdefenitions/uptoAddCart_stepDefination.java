@@ -47,7 +47,7 @@ public class uptoAddCart_stepDefination extends Libary{
 	}
 
 	@And("Enter delivery pincode and click the check link")
-	public void enter_delivery_pincode_and_click_the_check_link() {
+	public void enter_delivery_pincode_and_click_the_check_link() throws InterruptedException {
 	    // Code to enter pincode and click check
 		up.enterPincode("700156");
 	}

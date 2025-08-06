@@ -2,6 +2,7 @@ package com.ReusableFunctions;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -105,10 +106,22 @@ public class SeleniumReusable extends Libary {
     	
     	Set<String> allWindows = driver.getWindowHandles();
     	
-    	for(String window: allWindows) {
-    		driver.switchTo().window(window);
-    		System.out.println(window);
-    	}
+    	Iterator<String> it = allWindows.iterator();
+    	while(it.hasNext()) {
+			String childWindow = it.next();
+			if(!parentWindow.equals(childWindow)) {
+				driver.switchTo().window(childWindow);
+				System.out.println("Switched to child window: " + childWindow);
+				break;
+			}
+		}
+    	System.out.println("Current window title: " + driver.getTitle());
+    	
+//    	
+//    	for(String window: allWindows) {
+//    		driver.switchTo().window(window);
+//    		System.out.println(window);
+//    	}
     	
 	}
     
@@ -119,6 +132,10 @@ public class SeleniumReusable extends Libary {
     	
     	CucumberScenario.attach(screenshot, "image/png", "flipkartAutomation");
     	
+    }
+    
+    public void navigeteBack() {
+    	driver.navigate().back();
     }
 
 	

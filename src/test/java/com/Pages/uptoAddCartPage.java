@@ -60,9 +60,10 @@ public class uptoAddCartPage extends Libary {
 		re.click(clickOneLamp);
 	}
 	
-	public void enterPincode(String pincode) {
+	public void enterPincode(String pincode) throws InterruptedException {
 		
 		re.switchWindow(clickOneLamp);
+		re.waits();
 		pincodeInput.sendKeys(pincode);
 	}
 	

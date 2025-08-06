@@ -1,5 +1,6 @@
 package com.Pages;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.Keys;
@@ -10,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.BaseClass.Libary;
 import com.ReusableFunctions.SeleniumReusable;
+import com.Utilities.ExcelUtility;
 
 public class searchPage extends Libary {
 	public SeleniumReusable re;
@@ -17,6 +19,8 @@ public class searchPage extends Libary {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+
 	
 	@FindBy(xpath="//input[@name='q']")
 	WebElement searchText;
@@ -38,7 +42,7 @@ public class searchPage extends Libary {
 	
 	
 	public void search(String txt) {
-		re = new SeleniumReusable(driver);
+		 re= new SeleniumReusable(driver);
 		re.EnterValue(searchText, txt);
 	}
 	
@@ -70,6 +74,28 @@ public class searchPage extends Libary {
 	public void getThirdResult() {
 		re.getValue(thirdResult);
 	}
+	
+	public void searchWithExcel() throws IOException, InterruptedException {
+		ExcelUtility ExUtils = new ExcelUtility(driver);
+		re = new SeleniumReusable(driver);
+		for(int i=1;i<7;i++) {
+			String value = ExUtils.readExcelcolumn("Data",i,0);
+			System.out.println("Search value from Excel: " + value);
+			re.EnterValue(searchText, value);
+			searchText.sendKeys(Keys.ENTER);
+			re.waits();
+			re.navigeteBack();
+			
+			if(homePage.isDisplayed()) {
+				ExUtils.writeExcelcolumn2("Data", i, 1, "Pass");
+			}else {
+				ExUtils.writeExcelcolumn2("Data", i, 1, "Fail");
+			}
+			
+		}
+	}
+	
+	
 	
 	
 	

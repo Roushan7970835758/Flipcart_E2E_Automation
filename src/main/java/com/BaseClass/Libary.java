@@ -55,7 +55,7 @@ public class Libary {
 	public void tearDown() {
 		// Code to close the browser
 		if (driver != null) {
-			driver.close();
+			driver.quit();
 			System.out.println("Browser closed successfully.");
 		} else {
 			System.out.println("No browser instance found to close.");

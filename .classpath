@@ -26,7 +26,7 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -37,12 +37,17 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="C:/Users/User/.m2/repository/io/cucumber/cucumber-testng/7.5.0/cucumber-testng-7.5.0.jar" sourcepath="C:/Users/User/.m2/repository/io/cucumber/cucumber-testng/7.5.0/cucumber-testng-7.5.0-sources.jar">
+	<classpathentry kind="lib" path="C:/Users/User/.p2/pool/plugins/org.junit_4.13.2.v20240929-1000.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://junit.org/junit4/javadoc/latest/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/User/.m2/repository/org/seleniumhq/selenium/selenium-api/4.34.0/selenium-api-4.34.0.jar" sourcepath="C:/Users/User/.m2/repository/org/seleniumhq/selenium/selenium-api/4.34.0/selenium-api-4.34.0-sources.jar">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="io.cucumber"/>
-			<attribute name="maven.artifactId" value="cucumber-testng"/>
-			<attribute name="maven.version" value="7.5.0"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-api"/>
+			<attribute name="maven.version" value="4.34.0"/>
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
