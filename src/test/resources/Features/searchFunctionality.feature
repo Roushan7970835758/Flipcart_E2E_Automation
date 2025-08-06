@@ -18,7 +18,7 @@ And Select the Ram
 And Select the Battery Capacity
 When It should display the Relevant result
 
-@tc002 @Regression
+@tc002 
 Scenario:To validate the Fashion Functionality 
 Given User to move the Fashion link
 When Cursor to move to the Kids link
