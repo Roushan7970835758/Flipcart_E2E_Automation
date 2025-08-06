@@ -13,10 +13,10 @@ import io.cucumber.testng.CucumberOptions;
 monochrome= true, plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },tags="@Regression")
 public class Runner extends AbstractTestNGCucumberTests {
 	
-	@DataProvider(parallel = true)
-	public Object[][] scenarios() {
-	    return super.scenarios();
-	}
+	// @DataProvider(parallel = true)
+	// public Object[][] scenarios() {
+	//     return super.scenarios();
+	// }
 	
 	// This class is used to run the Cucumber tests with JUnit
 	// The @CucumberOptions annotation specifies the features and glue code
