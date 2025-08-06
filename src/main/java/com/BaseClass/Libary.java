@@ -3,13 +3,14 @@ package com.BaseClass;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import java.time.Duration;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Libary {
 	public static WebDriver driver;

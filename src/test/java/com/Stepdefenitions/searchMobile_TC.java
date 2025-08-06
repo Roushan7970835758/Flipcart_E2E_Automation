@@ -3,12 +3,9 @@ package com.Stepdefenitions;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import org.openqa.selenium.By;
-
 import com.BaseClass.Libary;
 import com.Pages.searchPage;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
