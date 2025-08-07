@@ -1,27 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-08T02:54:47 IST" name="Default suite" finished-at="2025-08-08T02:55:22 IST" duration-ms="35011">
+  <suite started-at="2025-08-08T02:57:53 GMT+05:30" name="Default suite" finished-at="2025-08-08T03:01:33 GMT+05:30" duration-ms="220724">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-08-08T02:54:47 IST" name="Default test" finished-at="2025-08-08T02:55:22 IST" duration-ms="35011">
+    <test started-at="2025-08-08T02:57:53 GMT+05:30" name="Default test" finished-at="2025-08-08T03:01:33 GMT+05:30" duration-ms="220724">
       <class name="com.TestRunner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:54:47 IST" name="setUpClass" finished-at="2025-08-08T02:54:49 IST" duration-ms="1312" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:57:53 GMT+05:30" name="setUpClass" finished-at="2025-08-08T02:57:55 GMT+05:30" duration-ms="2250" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b55ff0a]]>
+                <![CDATA[org.testng.TestRunner@773c2214]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:54:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T02:55:22 IST" duration-ms="32992" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:57:55 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T03:01:26 GMT+05:30" duration-ms="211230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate upto addcart functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:57:55 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T03:01:23 GMT+05:30" duration-ms="208208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To get the title and price from search result"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:57:55 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T03:01:26 GMT+05:30" duration-ms="211056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the search functionality with different val"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:57:55 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T03:01:26 GMT+05:30" duration-ms="211181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the search functionality with different val"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:57:55 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T03:01:28 GMT+05:30" duration-ms="212598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the Search functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:57:55 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T03:01:24 GMT+05:30" duration-ms="209450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the search functionality with different val"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:57:55 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T03:01:25 GMT+05:30" duration-ms="210495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the search functionality with different val"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:57:55 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T03:01:32 GMT+05:30" duration-ms="217291" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T02:55:22 IST" name="tearDownClass" finished-at="2025-08-08T02:55:22 IST" duration-ms="588" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.Runner@768ccdc5]" started-at="2025-08-08T03:01:32 GMT+05:30" name="tearDownClass" finished-at="2025-08-08T03:01:33 GMT+05:30" duration-ms="1034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
