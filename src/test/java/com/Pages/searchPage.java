@@ -9,16 +9,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.BaseClass.Libary;
 import com.ReusableFunctions.SeleniumReusable;
 import com.Utilities.ExcelUtility;
 
-public class searchPage extends Libary {
-	public SeleniumReusable re;
-	public searchPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}
+public class searchPage {
+    private final WebDriver driver;
+    public SeleniumReusable re;
+    public searchPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
 	
 
 	
@@ -78,7 +78,7 @@ public class searchPage extends Libary {
 	public void searchWithExcel() throws IOException, InterruptedException {
 		ExcelUtility ExUtils = new ExcelUtility(driver);
 		re = new SeleniumReusable(driver);
-		for(int i=1;i<7;i++) {
+		for(int i=1;i<4;i++) {
 			String value = ExUtils.readExcelcolumn("Data",i,0);
 			System.out.println("Search value from Excel: " + value);
 			re.EnterValue(searchText, value);

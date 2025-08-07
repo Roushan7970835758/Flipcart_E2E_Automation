@@ -6,15 +6,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.BaseClass.Libary;
 import com.ReusableFunctions.SeleniumReusable;
 
-public class multipleSearch extends Libary {
+public class multipleSearch {
+    private final WebDriver driver;
 
-	public multipleSearch(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}
+    public multipleSearch(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
 	
 	SeleniumReusable sr;
 	

@@ -5,14 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.BaseClass.Libary;
 import com.ReusableFunctions.SeleniumReusable;
 
-public class fashionPage extends Libary {
-	public fashionPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver,this);
-	}
+public class fashionPage {
+    private final WebDriver driver;
+    public fashionPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver,this);
+    }
 	
 	SeleniumReusable sr;
 	
@@ -29,8 +29,8 @@ public class fashionPage extends Libary {
 	WebElement priceLowToHigh;
 	
 	
-	public void moveFashioLink() {
-		sr = new SeleniumReusable(driver);
+    public void moveFashioLink() {
+        sr = new SeleniumReusable(driver);
 		sr.mouseHover(fashionTab);
 	}
 	

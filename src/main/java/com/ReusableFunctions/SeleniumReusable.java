@@ -15,13 +15,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import com.BaseClass.Libary;
-
 import io.cucumber.java.Scenario;
 
-public class SeleniumReusable extends Libary {
+public class SeleniumReusable {
 
-    protected WebDriver driver;
+    protected final WebDriver driver;
     Actions action;
     public SeleniumReusable(WebDriver driver) {
         // Constructor to initialize the parent class

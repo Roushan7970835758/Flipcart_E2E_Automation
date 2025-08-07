@@ -3,6 +3,7 @@ package com.Stepdefenitions;
 import com.BaseClass.Libary;
 import com.Pages.fashionPage;
 import com.ReusableFunctions.SeleniumReusable;
+import com.Utilities.threadLocal;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -17,10 +18,10 @@ public class fashionStepDefination extends Libary {
 	@Given("User to move the Fashion link")
 	public void user_to_move_the_fashion_link() {
 	    // Write code here that turns the phrase above into concrete actions
-	    sr = new SeleniumReusable(driver);
+        sr = new SeleniumReusable(threadLocal.getDriver());
 	    System.out.println("before clicking fashion link");
 	    sr.gettitle();
-	    fp = new fashionPage(driver);
+        fp = new fashionPage(threadLocal.getDriver());
 	    fp.moveFashioLink();
 	    
 	    

@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import com.BaseClass.Libary;
 import com.Pages.searchPage;
+import com.Utilities.threadLocal;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,14 +16,13 @@ public class searchMobile_TC extends Libary {
 	String searchTxt = "Apple";
 	@Given("Launch the Flipkart Application")
 	public void launch_the_flipkart_application() throws FileNotFoundException, IOException {
-	    // Write code here that turns the phrase above into concrete actions
-		launchApplication();
+        // Application is launched in @Before hook. No action needed here.
 	}
 
 	@When("Close the popup")
 	public void close_the_popup() {
 	    // Write code here that turns the phrase above into concrete actions
-		sp = new searchPage(driver);
+        sp = new searchPage(threadLocal.getDriver());
 		sp.handlePopUp();
 	}
 

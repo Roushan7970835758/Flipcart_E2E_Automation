@@ -8,15 +8,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.BaseClass.Libary;
 import com.ReusableFunctions.SeleniumReusable;
 
-public class titlePricePage extends Libary {
-	
-	public titlePricePage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}
+public class titlePricePage {
+    private final WebDriver driver;
+    
+    public titlePricePage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
 	
 	public SeleniumReusable sr;
 	

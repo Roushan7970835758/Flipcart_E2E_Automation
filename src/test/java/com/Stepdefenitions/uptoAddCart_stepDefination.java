@@ -5,6 +5,7 @@ import java.io.IOException;
 import com.BaseClass.Libary;
 import com.Pages.uptoAddCartPage;
 import com.ReusableFunctions.SeleniumReusable;
+import com.Utilities.threadLocal;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -17,7 +18,7 @@ public class uptoAddCart_stepDefination extends Libary{
 	@Given("User can move to the login link")
 	public void user_can_move_to_the_login_link() {
 	    // Code to move to the login link
-		up = new uptoAddCartPage(driver);
+        up = new uptoAddCartPage(threadLocal.getDriver());
 		up.hoverLoginLink();
 	}
 
@@ -56,7 +57,7 @@ public class uptoAddCart_stepDefination extends Libary{
 	public void pincode_should_be_checked_and_displayed_and_verify_the_titles() throws IOException {
 	    // Code to verify pincode and titles
 		up.clickCheckPincode();
-		re = new SeleniumReusable(driver);
+        re = new SeleniumReusable(threadLocal.getDriver());
 		re.gettitle();
 		
 		re.screenshot("src\\test\\resources\\Screenshots\\uptoAddCart.png");

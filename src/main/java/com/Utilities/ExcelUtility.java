@@ -12,14 +12,13 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 
-import com.BaseClass.Libary;
-
-public class ExcelUtility extends Libary {
-	
-	public  ExcelUtility(WebDriver driver) {
-		// Constructor to initialize the class if needed
-		this.driver = driver;
-	}
+public class ExcelUtility {
+    private final WebDriver driver;
+    
+    public  ExcelUtility(WebDriver driver) {
+        // Constructor to initialize the class if needed
+        this.driver = driver;
+    }
 	
 	
 	public String readExcelcolumn(String sheet,int rowNumber, int cellNumber) throws IOException {

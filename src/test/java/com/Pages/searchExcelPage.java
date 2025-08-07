@@ -8,17 +8,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.BaseClass.Libary;
 import com.ReusableFunctions.SeleniumReusable;
 import com.Utilities.ExcelUtility;
 
-public class searchExcelPage extends Libary {
-	ExcelUtility ExUtils;
-	SeleniumReusable re;
-	public searchExcelPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}
+public class searchExcelPage {
+    private final WebDriver driver;
+    ExcelUtility ExUtils;
+    SeleniumReusable re;
+    public searchExcelPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
 	
 	@FindBy(xpath="//input[@name='q']")
 	WebElement searchText;
@@ -28,6 +28,7 @@ public class searchExcelPage extends Libary {
 	
 	public void searchWithExcel() throws IOException, InterruptedException {
 		 ExUtils = new ExcelUtility(driver);
+         re = new SeleniumReusable(driver);
 		
 		for(int i=1;i<7;i++) {
 			re.EnterValue(searchText, ExUtils.readExcelcolumn("Data",i,0));

@@ -6,16 +6,16 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import com.BaseClass.Libary;
 import com.ReusableFunctions.SeleniumReusable;
 
-public class filterPage extends Libary{
-	
-	public filterPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-		
-	}
+public class filterPage {
+    private final WebDriver driver;
+    
+    public filterPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+        
+    }
 	public SeleniumReusable sr;
 	
 	@FindBy(className="Gn+jFg")

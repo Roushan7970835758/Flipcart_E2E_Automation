@@ -5,6 +5,7 @@ import java.io.IOException;
 import com.BaseClass.Libary;
 import com.Pages.searchPage;
 import com.ReusableFunctions.SeleniumReusable;
+import com.Utilities.threadLocal;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,14 +16,14 @@ public class searchWithExcel_stepDefination extends Libary {
 	SeleniumReusable re;
 	@Given("Enter Search Text In the Search Field")
 	public void enterSearchText() throws IOException, InterruptedException {
-	     sp = new searchPage(driver);
+         sp = new searchPage(threadLocal.getDriver());
 	     sp.searchWithExcel();
 	}
 
 	@When("Click search Icon")
 	public void clickSearchIcon() throws IOException {
 	    // Code to click the search icon
-		re = new SeleniumReusable(driver);
+        re = new SeleniumReusable(threadLocal.getDriver());
 		re.screenshot("src\\test\\resources\\Screenshots\\searchPage.png");
 	}
 

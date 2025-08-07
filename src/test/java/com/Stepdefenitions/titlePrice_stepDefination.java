@@ -2,6 +2,7 @@ package com.Stepdefenitions;
 
 import com.BaseClass.Libary;
 import com.Pages.titlePricePage;
+import com.Utilities.threadLocal;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -12,7 +13,7 @@ public class titlePrice_stepDefination extends Libary {
 	titlePricePage tp;
 	@Given("Enter the search text in the search field")
 	public void enter_the_search_text_in_the_search_field() {
-	    tp = new titlePricePage(Libary.driver);
+        tp = new titlePricePage(threadLocal.getDriver());
 	    tp.enterSearch("Shirt");
 	}
 

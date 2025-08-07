@@ -5,16 +5,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.BaseClass.Libary;
 import com.ReusableFunctions.SeleniumReusable;
 
-public class uptoAddCartPage extends Libary {
-	
-	public uptoAddCartPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-		
-	}
+public class uptoAddCartPage {
+    private final WebDriver driver;
+    
+    public uptoAddCartPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+        
+    }
 	SeleniumReusable re;
 
 	@FindBy(xpath="//a[@title='Login']")
