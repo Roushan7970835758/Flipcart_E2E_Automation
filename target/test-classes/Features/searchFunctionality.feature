@@ -27,7 +27,7 @@ And Click the price high to low link
 Then It should dispay the relevent details and get the title
 
 
-@tc003 @Regression 
+@tc003 
 Scenario Outline: To validate the search functionality with different val
  Given Enter the "<searchtext>" in the search field
 When click the search button
