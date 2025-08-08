@@ -56,7 +56,7 @@ public class Libary {
                     ChromeOptions options = new ChromeOptions();
                     options.addArguments("--start-maximized");
                     options.setAcceptInsecureCerts(true);
-                    driverLocal = new ChromeDriver(options);
+                    driverLocal = new ChromeDriver();
 					break;
 				case "edge":
 					// Code to initialize Firefox driver
@@ -80,7 +80,7 @@ public class Libary {
             driver.get(url);
             // Best-effort maximize without failing the test in case of CDP/version mismatch
             try {
-                driver.manage().window().maximize();
+                // driver.manage().window().maximize();
             } catch (Exception ignore) {
                 System.out.println("Window maximize not supported by driver; continuing.");
             }

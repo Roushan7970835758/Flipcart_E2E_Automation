@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 94.11 s <<< FAILURE! -- in TestSuite
-com.TestRunner.Runner.runScenario["To test the search functionality with excel sheet", "To validate the Flipkart Application"](4) -- Time elapsed: 42.93 s <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because "row" is null
-	at com.Utilities.ExcelUtility.readExcelcolumn(ExcelUtility.java:33)
-	at com.Pages.searchPage.searchWithExcel(searchPage.java:82)
-	at com.Stepdefenitions.searchWithExcel_stepDefination.enterSearchText(searchWithExcel_stepDefination.java:20)
-	at ✽.Enter Search Text In the Search Field(file:///C:/Users/User/eclipse-workspace/TODO/Flipkart_E2E_Project/src/test/resources/Features/searchFunctionality.feature:62)
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 191.5 s -- in TestSuite

@@ -1,43 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-08T02:45:00 IST" name="Suite" finished-at="2025-08-08T02:46:33 IST" duration-ms="93071">
+  <suite started-at="2025-08-08T22:12:03 IST" name="Suite" finished-at="2025-08-08T22:15:13 IST" duration-ms="189680">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-08-08T02:45:00 IST" name="Test" finished-at="2025-08-08T02:46:33 IST" duration-ms="93071">
+    <test started-at="2025-08-08T22:12:03 IST" name="Test" finished-at="2025-08-08T22:15:13 IST" duration-ms="189680">
       <class name="com.TestRunner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T02:45:00 IST" name="setUpClass" finished-at="2025-08-08T02:45:02 IST" duration-ms="1734" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T22:12:03 IST" name="setUpClass" finished-at="2025-08-08T22:12:07 IST" duration-ms="3544" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3f9b7fe1]]>
+                <![CDATA[org.testng.TestRunner@15c25153]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T02:45:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T02:46:09 IST" duration-ms="67053" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["To validate the Search functionality"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To validate the Flipkart Application"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T02:45:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T02:46:09 IST" duration-ms="67091" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T22:12:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T22:15:08 IST" duration-ms="181149" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +37,87 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T02:45:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T02:45:49 IST" duration-ms="47601" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T22:12:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T22:14:51 IST" duration-ms="163980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the search functionality with different val"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T22:12:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T22:14:42 IST" duration-ms="155068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the search functionality with different val"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T22:12:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T22:14:54 IST" duration-ms="167330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the search functionality with different val"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T22:12:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T22:15:11 IST" duration-ms="184111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test the search functionality with excel sheet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T22:12:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T22:15:11 IST" duration-ms="183614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate the Search functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To validate the Flipkart Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T22:12:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T22:15:11 IST" duration-ms="183586" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,36 +133,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T02:45:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-08T02:46:32 IST" duration-ms="42945" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["To test the search functionality with excel sheet"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To validate the Flipkart Application"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because "row" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because "row" is null
-at com.Utilities.ExcelUtility.readExcelcolumn(ExcelUtility.java:33)
-at com.Pages.searchPage.searchWithExcel(searchPage.java:82)
-at com.Stepdefenitions.searchWithExcel_stepDefination.enterSearchText(searchWithExcel_stepDefination.java:20)
-at ✽.Enter Search Text In the Search Field(file:///C:/Users/User/eclipse-workspace/TODO/Flipkart_E2E_Project/src/test/resources/Features/searchFunctionality.feature:62)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T02:46:32 IST" name="tearDownClass" finished-at="2025-08-08T02:46:33 IST" duration-ms="643" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.Runner@3fa2213]" started-at="2025-08-08T22:15:11 IST" name="tearDownClass" finished-at="2025-08-08T22:15:13 IST" duration-ms="1770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
