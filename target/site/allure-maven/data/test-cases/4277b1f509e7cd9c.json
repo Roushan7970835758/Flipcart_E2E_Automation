@@ -1,0 +1,307 @@
+{
+  "uid" : "4277b1f509e7cd9c",
+  "name" : "To validate the Search functionality",
+  "fullName" : "src/test/resources/Features/searchFunctionality.feature:9",
+  "historyId" : "a9b8c86c776098218a8af2d583b3136f",
+  "time" : {
+    "start" : 1754672446776,
+    "stop" : 1754672501458,
+    "duration" : 54682
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "com.Hooks.hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1754672446797,
+      "stop" : 1754672467410,
+      "duration" : 20613
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Launch the Flipkart Application",
+      "time" : {
+        "start" : 1754672467417,
+        "stop" : 1754672467418,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When Close the popup",
+      "time" : {
+        "start" : 1754672467420,
+        "stop" : 1754672472862,
+        "duration" : 5442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then It should Navigate to the Home page",
+      "time" : {
+        "start" : 1754672472864,
+        "stop" : 1754672473220,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given User enter the Text in the Search field",
+      "time" : {
+        "start" : 1754672473220,
+        "stop" : 1754672475647,
+        "duration" : 2427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When Click the search button",
+      "time" : {
+        "start" : 1754672475694,
+        "stop" : 1754672485831,
+        "duration" : 10137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then It should navigate to the search result page and display the relevent details",
+      "time" : {
+        "start" : 1754672485832,
+        "stop" : 1754672485833,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then Extract the Results and print in console",
+      "time" : {
+        "start" : 1754672485850,
+        "stop" : 1754672486135,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then Print the Third result and keep it in the console",
+      "time" : {
+        "start" : 1754672486136,
+        "stop" : 1754672486400,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And Select Minimum and Maximum Amount",
+      "time" : {
+        "start" : 1754672486409,
+        "stop" : 1754672493846,
+        "duration" : 7437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And Select the Brand",
+      "time" : {
+        "start" : 1754672493846,
+        "stop" : 1754672496128,
+        "duration" : 2282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And Select the Ram",
+      "time" : {
+        "start" : 1754672496130,
+        "stop" : 1754672498507,
+        "duration" : 2377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And Select the Battery Capacity",
+      "time" : {
+        "start" : 1754672498508,
+        "stop" : 1754672500918,
+        "duration" : 2410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When It should display the Relevant result",
+      "time" : {
+        "start" : 1754672500918,
+        "stop" : 1754672500976,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "com.Hooks.hooks.cleanUp(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1754672500976,
+      "stop" : 1754672501458,
+      "duration" : 482
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "871a03f93ad3424",
+      "name" : "flipkartAutomation",
+      "source" : "871a03f93ad3424.png",
+      "type" : "image/png",
+      "size" : 244179
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tc001"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "host",
+    "value" : "Roushan"
+  }, {
+    "name" : "thread",
+    "value" : "22348@Roushan.TestNG-PoolService-1(31)"
+  }, {
+    "name" : "feature",
+    "value" : "To validate the Flipkart Application"
+  }, {
+    "name" : "story",
+    "value" : "To validate the Search functionality"
+  }, {
+    "name" : "suite",
+    "value" : "To validate the Flipkart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "To validate the Search functionality"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/User/eclipse-workspace/TODO/Flipkart_E2E_Project/src/test/resources/Features/searchFunctionality.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.Features.searchFunctionality_feature.To validate the Flipkart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "tc001", "Regression" ]
+  },
+  "source" : "4277b1f509e7cd9c.json",
+  "parameterValues" : [ ]
+}

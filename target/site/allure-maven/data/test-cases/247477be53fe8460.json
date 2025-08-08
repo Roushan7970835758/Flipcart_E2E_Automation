@@ -1,0 +1,262 @@
+{
+  "uid" : "247477be53fe8460",
+  "name" : "To validate upto addcart functionality",
+  "fullName" : "src/test/resources/Features/searchFunctionality.feature:44",
+  "historyId" : "1eb71c8ca1654c37f2e027729edbbb3e",
+  "time" : {
+    "start" : 1754672446790,
+    "stop" : 1754672491109,
+    "duration" : 44319
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "com.Hooks.hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1754672446796,
+      "stop" : 1754672456700,
+      "duration" : 9904
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Launch the Flipkart Application",
+      "time" : {
+        "start" : 1754672456761,
+        "stop" : 1754672456766,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When Close the popup",
+      "time" : {
+        "start" : 1754672456768,
+        "stop" : 1754672463235,
+        "duration" : 6467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then It should Navigate to the Home page",
+      "time" : {
+        "start" : 1754672463510,
+        "stop" : 1754672464270,
+        "duration" : 760
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given User can move to the login link",
+      "time" : {
+        "start" : 1754672464271,
+        "stop" : 1754672466765,
+        "duration" : 2494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then User can click the flipkart plus zone",
+      "time" : {
+        "start" : 1754672466943,
+        "stop" : 1754672472312,
+        "duration" : 5369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And Mouse move to the Home&Furniture link",
+      "time" : {
+        "start" : 1754672472369,
+        "stop" : 1754672473152,
+        "duration" : 783
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And Going to click the wall lamp",
+      "time" : {
+        "start" : 1754672473200,
+        "stop" : 1754672474552,
+        "duration" : 1352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And Scroll down the page and click one particular result",
+      "time" : {
+        "start" : 1754672474569,
+        "stop" : 1754672478746,
+        "duration" : 4177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And Enter delivery pincode and click the check link",
+      "time" : {
+        "start" : 1754672478763,
+        "stop" : 1754672486091,
+        "duration" : 7328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then Pincode should be checked and displayed and verify the titles",
+      "time" : {
+        "start" : 1754672486092,
+        "stop" : 1754672487810,
+        "duration" : 1718
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "com.Hooks.hooks.cleanUp(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1754672487814,
+      "stop" : 1754672491029,
+      "duration" : 3215
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "70d051406815a442",
+      "name" : "flipkartAutomation",
+      "source" : "70d051406815a442.png",
+      "type" : "image/png",
+      "size" : 32417
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tc004"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "host",
+    "value" : "Roushan"
+  }, {
+    "name" : "thread",
+    "value" : "22348@Roushan.TestNG-PoolService-2(32)"
+  }, {
+    "name" : "feature",
+    "value" : "To validate the Flipkart Application"
+  }, {
+    "name" : "story",
+    "value" : "To validate upto addcart functionality"
+  }, {
+    "name" : "suite",
+    "value" : "To validate the Flipkart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "To validate upto addcart functionality"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/User/eclipse-workspace/TODO/Flipkart_E2E_Project/src/test/resources/Features/searchFunctionality.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.Features.searchFunctionality_feature.To validate the Flipkart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "tc004", "Regression" ]
+  },
+  "source" : "247477be53fe8460.json",
+  "parameterValues" : [ ]
+}

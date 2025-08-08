@@ -1,0 +1,151 @@
+{
+  "uid" : "21df3eeb4d7cf154",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "e48605cf7529debd79404bdc7945a35c",
+  "time" : {
+    "start" : 1753568179521,
+    "stop" : 1753568196407,
+    "duration" : 16886
+  },
+  "status" : "broken",
+  "statusMessage" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=138.0.7204.169)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [731568d90af4786dd4922ced78732ec1, sendKeysToElement {value=[Ljava.lang.CharSequence;@ef718de, id=f.31D13C3A7A5AC2213C81455316F18CF5.d.F6A81C7F4038EF311DA45A392DA73175.e.34}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55049/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (731568d90af4786dd4922ced78732ec1)] -> id: pincodeInputId]\nSession ID: 731568d90af4786dd4922ced78732ec1",
+  "statusTrace" : "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame\n  (Session info: chrome=138.0.7204.169)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [731568d90af4786dd4922ced78732ec1, sendKeysToElement {value=[Ljava.lang.CharSequence;@ef718de, id=f.31D13C3A7A5AC2213C81455316F18CF5.d.F6A81C7F4038EF311DA45A392DA73175.e.34}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55049/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (731568d90af4786dd4922ced78732ec1)] -> id: pincodeInputId]\nSession ID: 731568d90af4786dd4922ced78732ec1\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)\r\n\tat com.Pages.uptoAddCartPage.enterPincode(uptoAddCartPage.java:66)\r\n\tat com.Stepdefenitions.uptoAddCart_stepDefination.enter_delivery_pincode_and_click_the_check_link(uptoAddCart_stepDefination.java:52)\r\n\tat ✽.Enter delivery pincode and click the check link(file:///C:/Users/User/eclipse-workspace/TODO/Flipkart_E2E_Project/src/test/resources/Features/searchFunctionality.feature:50)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1753568178975,
+      "stop" : 1753568179438,
+      "duration" : 463
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1753568196622,
+      "stop" : 1753568197239,
+      "duration" : 617
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.TestRunner.Runner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.TestRunner.Runner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.TestRunner.Runner"
+  }, {
+    "name" : "host",
+    "value" : "Roushan"
+  }, {
+    "name" : "thread",
+    "value" : "12148@Roushan.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"To validate upto addcart functionality\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"To validate the Flipkart Application\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e987aa91f12b2e92",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=138.0.7204.169)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7e734cd307b4001536bb4fbd9206bb12, sendKeysToElement {value=[Ljava.lang.CharSequence;@12f279b5, id=f.84023A971F6E2753CB13710491403BAE.d.50F1C682EF7BACCDF9285B519851FD6E.e.13}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54913}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54913/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (7e734cd307b4001536bb4fbd9206bb12)] -> id: pincodeInputId]\nSession ID: 7e734cd307b4001536bb4fbd9206bb12",
+      "time" : {
+        "start" : 1753568036364,
+        "stop" : 1753568049401,
+        "duration" : 13037
+      }
+    }, {
+      "uid" : "f3b9adb5610f1806",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)\" because \"this.searchContext\" is null",
+      "time" : {
+        "start" : 1753567967003,
+        "stop" : 1753567967490,
+        "duration" : 487
+      }
+    }, {
+      "uid" : "b5cc247a2afc77d1",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)\" because \"this.searchContext\" is null",
+      "time" : {
+        "start" : 1753567764005,
+        "stop" : 1753567764505,
+        "duration" : 500
+      }
+    }, {
+      "uid" : "43504ed4b7bd9c7f",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)\" because \"this.searchContext\" is null",
+      "time" : {
+        "start" : 1753567614341,
+        "stop" : 1753567614810,
+        "duration" : 469
+      }
+    }, {
+      "uid" : "6cd90a5850ecfd34",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)\" because \"this.searchContext\" is null",
+      "time" : {
+        "start" : 1753567428351,
+        "stop" : 1753567428809,
+        "duration" : 458
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "21df3eeb4d7cf154.json",
+  "parameterValues" : [ "\"To validate upto addcart functionality\"", "\"To validate the Flipkart Application\"" ]
+}

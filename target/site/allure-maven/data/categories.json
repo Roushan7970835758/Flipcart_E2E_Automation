@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NoClassDefFoundError: io/cucumber/core/internal/gherkin/ast/Node",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "e5ef063063c2b756",
+        "parentUid" : "427c91ac6e16dd594fd93bf1669a774f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1753480574981,
+          "stop" : 1753480574983,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "427c91ac6e16dd594fd93bf1669a774f"
+    }, {
+      "name" : "Test name must not be null or empty",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "1a3dd91f644da2d4",
+        "parentUid" : "15c5b0fd478618b249e05d2c73497ca2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1753543302909,
+          "stop" : 1753543302916,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"To validate the search functionality with different val\"", "\"Unknown\"" ]
+      } ],
+      "uid" : "15c5b0fd478618b249e05d2c73497ca2"
+    }, {
+      "name" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=138.0.7204.169)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [731568d90af4786dd4922ced78732ec1, sendKeysToElement {value=[Ljava.lang.CharSequence;@ef718de, id=f.31D13C3A7A5AC2213C81455316F18CF5.d.F6A81C7F4038EF311DA45A392DA73175.e.34}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55049/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (731568d90af4786dd4922ced78732ec1)] -> id: pincodeInputId]\nSession ID: 731568d90af4786dd4922ced78732ec1",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "21df3eeb4d7cf154",
+        "parentUid" : "c2ec90076ea1ad4789ae3f04a9ad43b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1753568179521,
+          "stop" : 1753568196407,
+          "duration" : 16886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"To validate upto addcart functionality\"", "\"To validate the Flipkart Application\"" ]
+      } ],
+      "uid" : "c2ec90076ea1ad4789ae3f04a9ad43b5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

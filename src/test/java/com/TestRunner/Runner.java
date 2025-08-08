@@ -9,7 +9,11 @@ import io.cucumber.testng.CucumberOptions;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(features="src\\test\\resources\\Features" , glue = {"com.Stepdefenitions","com.Hooks"},
-monochrome= true, plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },tags="@Regression")
+monochrome= true,plugin = {
+        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+        "pretty",
+        "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+    },tags="@Regression")
 public class Runner extends AbstractTestNGCucumberTests {
 	
      @DataProvider(parallel = true)

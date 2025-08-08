@@ -1,0 +1,91 @@
+[ {
+  "uid" : "21df3eeb4d7cf154",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1753568179521,
+    "stop" : 1753568196407,
+    "duration" : 16886
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e4a905d73c150a24",
+  "name" : "To validate the Search functionality",
+  "time" : {
+    "start" : 1754672707292,
+    "stop" : 1754672753605,
+    "duration" : 46313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b290f927c4a765ab",
+  "name" : "To test the search functionality with excel sheet",
+  "time" : {
+    "start" : 1754672707303,
+    "stop" : 1754672758763,
+    "duration" : 51460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5ef063063c2b756",
+  "name" : "setUpClass",
+  "time" : {
+    "start" : 1753480574981,
+    "stop" : 1753480574983,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1a3dd91f644da2d4",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1753543302909,
+    "stop" : 1753543302916,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "83541a93a600a840",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1753563885918,
+    "stop" : 1753563896835,
+    "duration" : 10917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2894d134ad68cf4",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1753475195627,
+    "stop" : 1753475204693,
+    "duration" : 9066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb1c24652dbe360b",
+  "name" : "To get the title and price from search result",
+  "time" : {
+    "start" : 1754672707290,
+    "stop" : 1754672745742,
+    "duration" : 38452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d5a46a61311ca9b",
+  "name" : "To validate upto addcart functionality",
+  "time" : {
+    "start" : 1754672707287,
+    "stop" : 1754672741913,
+    "duration" : 34626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

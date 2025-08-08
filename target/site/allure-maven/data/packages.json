@@ -1,0 +1,130 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.TestRunner.Runner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "e2894d134ad68cf4",
+      "parentUid" : "3992efb2c0585f2b84bc941475ae9346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753475195627,
+        "stop" : 1753475204693,
+        "duration" : 9066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"To validate the Fashion Functionality\"", "\"Unknown\"" ]
+    }, {
+      "name" : "setUpClass",
+      "uid" : "e5ef063063c2b756",
+      "parentUid" : "3992efb2c0585f2b84bc941475ae9346",
+      "status" : "broken",
+      "time" : {
+        "start" : 1753480574981,
+        "stop" : 1753480574983,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "1a3dd91f644da2d4",
+      "parentUid" : "3992efb2c0585f2b84bc941475ae9346",
+      "status" : "broken",
+      "time" : {
+        "start" : 1753543302909,
+        "stop" : 1753543302916,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"To validate the search functionality with different val\"", "\"Unknown\"" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "83541a93a600a840",
+      "parentUid" : "3992efb2c0585f2b84bc941475ae9346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753563885918,
+        "stop" : 1753563896835,
+        "duration" : 10917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"To get the title and price from search result\"", "\"To validate the Flipkart Application\"" ]
+    }, {
+      "name" : "runScenario",
+      "uid" : "21df3eeb4d7cf154",
+      "parentUid" : "3992efb2c0585f2b84bc941475ae9346",
+      "status" : "broken",
+      "time" : {
+        "start" : 1753568179521,
+        "stop" : 1753568196407,
+        "duration" : 16886
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"To validate upto addcart functionality\"", "\"To validate the Flipkart Application\"" ]
+    } ],
+    "uid" : "com.TestRunner.Runner"
+  }, {
+    "name" : "src.test.resources.Features.searchFunctionality_feature.To validate the Flipkart Application",
+    "children" : [ {
+      "name" : "To validate upto addcart functionality",
+      "uid" : "3d5a46a61311ca9b",
+      "parentUid" : "0d02822fbda72c6d60ba96c55a5e37fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754672707287,
+        "stop" : 1754672741913,
+        "duration" : 34626
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "To get the title and price from search result",
+      "uid" : "fb1c24652dbe360b",
+      "parentUid" : "0d02822fbda72c6d60ba96c55a5e37fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754672707290,
+        "stop" : 1754672745742,
+        "duration" : 38452
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "To validate the Search functionality",
+      "uid" : "e4a905d73c150a24",
+      "parentUid" : "0d02822fbda72c6d60ba96c55a5e37fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754672707292,
+        "stop" : 1754672753605,
+        "duration" : 46313
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "To test the search functionality with excel sheet",
+      "uid" : "b290f927c4a765ab",
+      "parentUid" : "0d02822fbda72c6d60ba96c55a5e37fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754672707303,
+        "stop" : 1754672758763,
+        "duration" : 51460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.resources.Features.searchFunctionality_feature.To validate the Flipkart Application"
+  } ]
+}

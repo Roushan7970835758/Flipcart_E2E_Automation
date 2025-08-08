@@ -1,0 +1,15 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "689067c3b5c8309597bf553167d5b84d",
+    "name" : "To validate the Flipkart Application",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

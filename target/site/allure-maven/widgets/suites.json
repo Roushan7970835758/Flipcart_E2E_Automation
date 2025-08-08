@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56",
+    "name" : "Default suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b",
+    "name" : "Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e449594fa03d0fba506059dec45048a8",
+    "name" : "To validate the Flipkart Application",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

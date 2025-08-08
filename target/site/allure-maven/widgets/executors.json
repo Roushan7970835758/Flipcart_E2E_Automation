@@ -1,0 +1,5 @@
+[ {
+  "name" : "Maven",
+  "type" : "maven",
+  "buildName" : "Flipkart E2E Automation"
+} ]

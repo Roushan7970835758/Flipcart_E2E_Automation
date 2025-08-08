@@ -1,0 +1,176 @@
+{
+  "adaf36a71ab6b27fd410544312eff7c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2894d134ad68cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753475195627,
+        "stop" : 1753475204693,
+        "duration" : 9066
+      }
+    } ]
+  },
+  "438699cc9e39e947e75f7d4678fe712f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83541a93a600a840",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753563885918,
+        "stop" : 1753563896835,
+        "duration" : 10917
+      }
+    } ]
+  },
+  "92caf9dab547fac84e7063a49e3c4c38" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5ef063063c2b756",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NoClassDefFoundError: io/cucumber/core/internal/gherkin/ast/Node",
+      "time" : {
+        "start" : 1753480574981,
+        "stop" : 1753480574983,
+        "duration" : 2
+      }
+    } ]
+  },
+  "4760d3adbe4ea2e7831ec671f13745e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb1c24652dbe360b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754672707290,
+        "stop" : 1754672745742,
+        "duration" : 38452
+      }
+    } ]
+  },
+  "7886d3033f02924edad777eb3849698c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b290f927c4a765ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754672707303,
+        "stop" : 1754672758763,
+        "duration" : 51460
+      }
+    } ]
+  },
+  "251e6caa4054d8d09d939592c5b1ba7b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a3dd91f644da2d4",
+      "status" : "broken",
+      "statusDetails" : "Test name must not be null or empty",
+      "time" : {
+        "start" : 1753543302909,
+        "stop" : 1753543302916,
+        "duration" : 7
+      }
+    } ]
+  },
+  "e48605cf7529debd79404bdc7945a35c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21df3eeb4d7cf154",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=138.0.7204.169)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.21.0', revision: '79ed462ef4'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [731568d90af4786dd4922ced78732ec1, sendKeysToElement {value=[Ljava.lang.CharSequence;@ef718de, id=f.31D13C3A7A5AC2213C81455316F18CF5.d.F6A81C7F4038EF311DA45A392DA73175.e.34}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55049/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (731568d90af4786dd4922ced78732ec1)] -> id: pincodeInputId]\nSession ID: 731568d90af4786dd4922ced78732ec1",
+      "time" : {
+        "start" : 1753568179521,
+        "stop" : 1753568196407,
+        "duration" : 16886
+      }
+    } ]
+  },
+  "1eb71c8ca1654c37f2e027729edbbb3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d5a46a61311ca9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754672707287,
+        "stop" : 1754672741913,
+        "duration" : 34626
+      }
+    } ]
+  },
+  "a9b8c86c776098218a8af2d583b3136f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e4a905d73c150a24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754672707292,
+        "stop" : 1754672753605,
+        "duration" : 46313
+      }
+    } ]
+  }
+}

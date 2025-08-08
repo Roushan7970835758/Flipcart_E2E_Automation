@@ -1,0 +1,142 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "e2894d134ad68cf4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1753475195627,
+      "stop" : 1753475204693,
+      "duration" : 9066
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"To validate the Fashion Functionality\"", "\"Unknown\"" ]
+  }, {
+    "name" : "setUpClass",
+    "uid" : "e5ef063063c2b756",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1753480574981,
+      "stop" : 1753480574983,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "1a3dd91f644da2d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1753543302909,
+      "stop" : 1753543302916,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"To validate the search functionality with different val\"", "\"Unknown\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "83541a93a600a840",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1753563885918,
+      "stop" : 1753563896835,
+      "duration" : 10917
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"To get the title and price from search result\"", "\"To validate the Flipkart Application\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "21df3eeb4d7cf154",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1753568179521,
+      "stop" : 1753568196407,
+      "duration" : 16886
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"To validate upto addcart functionality\"", "\"To validate the Flipkart Application\"" ]
+  }, {
+    "name" : "To validate the Flipkart Application",
+    "children" : [ {
+      "name" : "To validate upto addcart functionality",
+      "children" : [ {
+        "name" : "To validate upto addcart functionality",
+        "uid" : "3d5a46a61311ca9b",
+        "parentUid" : "12a1b716260deb456e6fa774d39c7ced",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754672707287,
+          "stop" : 1754672741913,
+          "duration" : 34626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12a1b716260deb456e6fa774d39c7ced"
+    }, {
+      "name" : "To get the title and price from search result",
+      "children" : [ {
+        "name" : "To get the title and price from search result",
+        "uid" : "fb1c24652dbe360b",
+        "parentUid" : "be8d2255eba573468aa011b89680af11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754672707290,
+          "stop" : 1754672745742,
+          "duration" : 38452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be8d2255eba573468aa011b89680af11"
+    }, {
+      "name" : "To validate the Search functionality",
+      "children" : [ {
+        "name" : "To validate the Search functionality",
+        "uid" : "e4a905d73c150a24",
+        "parentUid" : "288e95e6d034e383544008817cea83e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754672707292,
+          "stop" : 1754672753605,
+          "duration" : 46313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "288e95e6d034e383544008817cea83e9"
+    }, {
+      "name" : "To test the search functionality with excel sheet",
+      "children" : [ {
+        "name" : "To test the search functionality with excel sheet",
+        "uid" : "b290f927c4a765ab",
+        "parentUid" : "0b588047179abf382edd0d00ab9c62bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754672707303,
+          "stop" : 1754672758763,
+          "duration" : 51460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b588047179abf382edd0d00ab9c62bb"
+    } ],
+    "uid" : "689067c3b5c8309597bf553167d5b84d"
+  } ]
+}

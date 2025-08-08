@@ -1,0 +1,98 @@
+{
+  "uid" : "c7cf7002c2eb977f",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "251e6caa4054d8d09d939592c5b1ba7b",
+  "time" : {
+    "start" : 1753479924516,
+    "stop" : 1753479933651,
+    "duration" : 9135
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1753479923934,
+      "stop" : 1753479924457,
+      "duration" : 523
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1753479959395,
+      "stop" : 1753479959446,
+      "duration" : 51
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.TestRunner.Runner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.TestRunner.Runner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.TestRunner.Runner"
+  }, {
+    "name" : "host",
+    "value" : "Roushan"
+  }, {
+    "name" : "thread",
+    "value" : "13444@Roushan.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"To validate the search functionality with different val\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Unknown\""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7cf7002c2eb977f.json",
+  "parameterValues" : [ "\"To validate the search functionality with different val\"", "\"Unknown\"" ]
+}

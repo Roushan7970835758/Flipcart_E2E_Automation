@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.time.Duration;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
@@ -17,6 +18,7 @@ import com.Utilities.threadLocal;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Libary {
+    private static final AtomicInteger windowSlotCounter = new AtomicInteger(0);
 	
 	public void launchApplication() throws FileNotFoundException, IOException {
         // Load configuration from classpath for reliability in parallel runs
@@ -75,7 +77,22 @@ public class Libary {
             if (driver == null) {
                 throw new IllegalStateException("Driver was not initialized correctly");
             }
-            
+            // Position and size window to avoid overlap for up to 4 parallel sessions (2x2 tiling)
+            try {
+                int slot = Math.floorMod(windowSlotCounter.getAndIncrement(), 4);
+                java.awt.Dimension screen = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
+                int tileWidth = Math.max(800, screen.width / 2);
+                int tileHeight = Math.max(600, screen.height / 2);
+                int col = (slot % 2);
+                int row = (slot / 2);
+                int posX = col * tileWidth;
+                int posY = row * tileHeight;
+                driver.manage().window().setSize(new org.openqa.selenium.Dimension(tileWidth, tileHeight));
+                driver.manage().window().setPosition(new org.openqa.selenium.Point(posX, posY));
+            } catch (Throwable t) {
+                System.out.println("Window tiling not applied: " + t.getMessage());
+            }
+
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
             driver.get(url);
             // Best-effort maximize without failing the test in case of CDP/version mismatch

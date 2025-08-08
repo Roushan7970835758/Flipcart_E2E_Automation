@@ -1,0 +1,100 @@
+{
+  "uid" : "83541a93a600a840",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "438699cc9e39e947e75f7d4678fe712f",
+  "time" : {
+    "start" : 1753563885918,
+    "stop" : 1753563896835,
+    "duration" : 10917
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1753563885387,
+      "stop" : 1753563885813,
+      "duration" : 426
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1753563896898,
+      "stop" : 1753563897252,
+      "duration" : 354
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.TestRunner.Runner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.TestRunner.Runner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.TestRunner.Runner"
+  }, {
+    "name" : "host",
+    "value" : "Roushan"
+  }, {
+    "name" : "thread",
+    "value" : "17664@Roushan.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"To get the title and price from search result\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"To validate the Flipkart Application\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83541a93a600a840.json",
+  "parameterValues" : [ "\"To get the title and price from search result\"", "\"To validate the Flipkart Application\"" ]
+}
