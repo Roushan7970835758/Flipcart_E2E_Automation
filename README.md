@@ -89,8 +89,13 @@ mvn clean test -Dcucumber.filter.tags="@Smoke"
 Images placed at the repository root have been embedded below:
 
 ![Project Structure](projectStr_readme.png)
+- Project structure: high‑level layout of `src/main`, `src/test`, feature files, pages, steps, utilities, and runner.
+
 ![Jenkins Workspace](JenkinSS_readme.png)
+- Jenkins view/configuration: job workspace showing repo files, Maven build usage, and Allure reporting integration.
+
 ![Allure Dashboard](AllureSS_readme.png)
+- Allure dashboard: execution summary with pass rate, suites, categories, and links to test details.
 
 ### Jenkins (optional)
 This project is CI‑ready. A simple Freestyle or Pipeline job can use:
